@@ -10,10 +10,11 @@ using namespace UI::UIElement;
 //using namespace Level;
 namespace Player
 {
-	PlayerView::PlayerView()
+	PlayerView::PlayerView(PlayerController* controller)
 	{
-		game_window = nullptr;
+		player_controller = controller;
 		player_image = new ImageView();
+		game_window = nullptr;
 	}
 
 	PlayerView::~PlayerView() {}
