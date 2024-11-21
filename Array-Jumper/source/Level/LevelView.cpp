@@ -40,7 +40,7 @@ namespace Level
 
 	BoxDimensions LevelView::getBoxDimensions()
 	{
-		return box_dimensions;
+		return box_dimensions;//made
 	}
 
 	void LevelView::createImages()
@@ -123,7 +123,7 @@ namespace Level
 	}
 
 
-	void LevelView::calculateBoxWidthHeight()
+	void LevelView::calculateBoxWidthHeight() //added boxwidth
 	{
 		float screenWidth = static_cast<float>(game_window->getSize().x);
 		int numBoxes = LevelData::NUMBER_OF_BOXES;
