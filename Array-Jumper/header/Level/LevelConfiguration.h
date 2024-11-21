@@ -7,7 +7,7 @@ namespace Level
     class LevelConfiguration
     {
     private:
-
+        //added level data
 
         BlockType level_1[LevelData::NUMBER_OF_BOXES] =
         {
